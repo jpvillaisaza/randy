@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>Di(c)e by Randy</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  </head>
+  <body class="container">
+    <main>
+      <article>
+        <header>
+          <hgroup>
+            <h1>Di(c)e</h1>
+            <p>by <a href="/">Randy</a></p>
+          </hgroup>
+        </header>
+        <div id="result" aria-live="polite">
+          Rolling...
+        </div>
+        <footer>
+          <button id="roll">Roll</button>
+        </footer>
+      </article>
+      <section>
+        <details>
+          <summary>All results</summary>
+          <ol id="results"></ol>
+        </details>
+      </section>
+    </main>
+    <script src="dice.js"></script>
+  </body>
+</html>

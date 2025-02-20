@@ -4,24 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <title>Randy</title>
+    <title>Draft by Randy</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
   </head>
   <body class="container">
-    <header>
-      <h1>Randy</h1>
-    </header>
     <main>
-      <aside>
-        <nav>
-          <ul>
-            <li><a href="apps/baloto/">Baloto</a></li>
-            <li><a href="apps/coin/">Coin</a></li>
-            <li><a href="apps/dice/">Di(c)e</a></li>
-            <li><a href="apps/draft/">Draft</a></li>
-          </ul>
-        </nav>
-      </aside>
+      <article>
+        <header>
+          <hgroup>
+            <h1>Draft</h1>
+            <p>by <a class="secondary" href="/">Randy</a></p>
+          </hgroup>
+        </header>
+        <p id="time"></p>
+        <form id="form">
+          <textarea autofocus rows="16"></textarea>
+        </form>
+        <footer>
+          <button id="reset">Reset</button>
+        </footer>
     </main>
     <footer>
       <nav>
@@ -35,12 +36,13 @@
         </ul>
         <ul>
           <li>
-            <a class="secondary" href="https://github.com/jpvillaisaza/randy">
+            <a class="secondary" href="https://github.com/jpvillaisaza/randy#draft">
               View on GitHub
             </a>
           </li>
         </ul>
       </nav>
     </footer>
+    <script src="draft.js"></script>
   </body>
 </html>
